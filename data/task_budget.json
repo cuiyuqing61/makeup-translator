@@ -1,0 +1,5 @@
+{
+  "foreground_wait_seconds": 8,
+  "product_enrichment_timeout_seconds": 60,
+  "tutorial_timeout_seconds": 600
+}

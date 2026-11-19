@@ -1,0 +1,29 @@
+[
+  {
+    "id": "owned-eye-01",
+    "category": "eyeshadow",
+    "name": "用户录入：四色眼影盘",
+    "shade": "02 暖棕",
+    "color_family": ["暖棕", "香槟"],
+    "finish": ["matte", "shimmer"],
+    "user_confirmed": true
+  },
+  {
+    "id": "owned-blush-01",
+    "category": "blush",
+    "name": "用户录入：单色腮红",
+    "shade": "蜜桃裸粉",
+    "color_family": ["蜜桃", "裸粉"],
+    "finish": ["satin"],
+    "user_confirmed": true
+  },
+  {
+    "id": "owned-lip-01",
+    "category": "lip",
+    "name": "用户录入：丝绒唇釉",
+    "shade": "豆沙棕",
+    "color_family": ["豆沙", "玫瑰棕"],
+    "finish": ["velvet"],
+    "user_confirmed": true
+  }
+]

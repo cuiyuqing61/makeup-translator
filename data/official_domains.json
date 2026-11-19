@@ -1,0 +1,304 @@
+{
+  "LANCOME": {
+    "canonical_name": "LANCOME",
+    "chinese_name": "兰蔻",
+    "aliases": [
+      "兰蔻",
+      "LANCOME"
+    ],
+    "regions": {
+      "中国大陆": [
+        "lancome.com.cn"
+      ],
+      "国际": [
+        "lancome.com"
+      ]
+    }
+  },
+  "L'OREAL PARIS": {
+    "canonical_name": "L'OREAL PARIS",
+    "chinese_name": "巴黎欧莱雅",
+    "aliases": [
+      "巴黎欧莱雅",
+      "L'OREAL PARIS",
+      "欧莱雅",
+      "LOREAL",
+      "L’Oréal Paris"
+    ],
+    "regions": {
+      "中国大陆": [
+        "loreal-paris.com.cn",
+        "lorealparis.com.cn"
+      ],
+      "国际": [
+        "lorealparisusa.com"
+      ],
+      "英国": [
+        "loreal-paris.co.uk"
+      ]
+    }
+  },
+  "MAYBELLINE": {
+    "canonical_name": "MAYBELLINE",
+    "chinese_name": "美宝莲",
+    "aliases": [
+      "美宝莲",
+      "美宝莲纽约",
+      "MAYBELLINE",
+      "Maybelline New York"
+    ],
+    "regions": {
+      "中国大陆": [
+        "maybelline.com.cn"
+      ],
+      "国际": [
+        "maybelline.com"
+      ]
+    }
+  },
+  "YSL BEAUTY": {
+    "canonical_name": "YSL BEAUTY",
+    "chinese_name": "圣罗兰美妆",
+    "aliases": [
+      "圣罗兰美妆",
+      "YSL BEAUTY",
+      "YSL",
+      "圣罗兰",
+      "Yves Saint Laurent"
+    ],
+    "regions": {
+      "中国大陆": [
+        "yslbeautycn.com"
+      ],
+      "国际": [
+        "yslbeautyus.com"
+      ]
+    }
+  },
+  "NARS": {
+    "canonical_name": "NARS",
+    "chinese_name": "娜斯",
+    "aliases": [
+      "NARS",
+      "娜斯"
+    ],
+    "regions": {
+      "国际": [
+        "narscosmetics.com"
+      ]
+    }
+  },
+  "MAC": {
+    "canonical_name": "MAC",
+    "chinese_name": "魅可",
+    "aliases": [
+      "MAC",
+      "魅可",
+      "M·A·C"
+    ],
+    "regions": {
+      "国际": [
+        "maccosmetics.com"
+      ]
+    }
+  },
+  "DIOR": {
+    "canonical_name": "DIOR",
+    "chinese_name": "迪奥",
+    "aliases": [
+      "DIOR",
+      "迪奥"
+    ],
+    "regions": {
+      "国际": [
+        "dior.com"
+      ]
+    }
+  },
+  "CHANEL": {
+    "canonical_name": "CHANEL",
+    "chinese_name": "香奈儿",
+    "aliases": [
+      "CHANEL",
+      "香奈儿"
+    ],
+    "regions": {
+      "国际": [
+        "chanel.com"
+      ]
+    }
+  },
+  "3CE": {
+    "canonical_name": "3CE",
+    "chinese_name": "三熹玉",
+    "aliases": [
+      "3CE",
+      "3CE STYLENANDA",
+      "三熹玉",
+      "3 CONCEPT EYES",
+      "STYLENANDA"
+    ],
+    "regions": {
+      "国际": [
+        "3cecosmetics.com"
+      ],
+      "韩国": [
+        "3cecosmetics.co.kr"
+      ]
+    }
+  },
+  "Flower Knows": {
+    "canonical_name": "Flower Knows",
+    "chinese_name": "花知晓",
+    "aliases": [
+      "Flower Knows",
+      "花知晓"
+    ],
+    "regions": {
+      "国际": [
+        "flowerknows.co"
+      ],
+      "日本": [
+        "flower-knows.jp"
+      ]
+    }
+  },
+  "KATE": {
+    "canonical_name": "KATE",
+    "chinese_name": "凯朵",
+    "aliases": [
+      "KATE",
+      "凯朵",
+      "ケイト",
+      "KATE TOKYO"
+    ],
+    "regions": {
+      "日本": [
+        "nomorerules.net",
+        "kao-kirei.com"
+      ]
+    }
+  },
+  "GIVENCHY BEAUTY": {
+    "canonical_name": "GIVENCHY BEAUTY",
+    "chinese_name": "纪梵希美妆",
+    "aliases": ["GIVENCHY", "GIVENCHY BEAUTY", "纪梵希", "纪梵希美妆", "Givenchy Beauty"],
+    "regions": {
+      "中国大陆": ["givenchybeauty.cn"],
+      "国际": ["givenchybeauty.com"]
+    }
+  },
+  "BOBBI BROWN": {
+    "canonical_name": "BOBBI BROWN",
+    "chinese_name": "芭比波朗",
+    "aliases": ["BOBBI BROWN", "Bobbi Brown", "芭比波朗"],
+    "regions": {
+      "中国大陆": ["bobbibrown.com.cn"],
+      "国际": ["bobbibrowncosmetics.com"]
+    }
+  },
+  "CANMAKE": {
+    "canonical_name": "CANMAKE",
+    "chinese_name": "井田",
+    "aliases": ["CANMAKE", "Canmake", "井田", "キャンメイク"],
+    "regions": {
+      "日本": ["canmake.com"],
+      "国际": ["canmake.com"]
+    }
+  },
+  "Excel": {
+    "canonical_name": "Excel",
+    "chinese_name": "Excel",
+    "aliases": ["Excel", "EXCEL", "excel makeup", "エクセル"],
+    "regions": {
+      "日本": ["noevirgroup.jp"]
+    }
+  },
+  "Perfect Diary": {
+    "canonical_name": "Perfect Diary",
+    "chinese_name": "完美日记",
+    "aliases": ["Perfect Diary", "PERFECT DIARY", "完美日记"],
+    "regions": {
+      "国际": ["perfectdiary.com"],
+      "日本": ["jj.perfectdiary.com"]
+    }
+  },
+  "Judydoll": {
+    "canonical_name": "Judydoll",
+    "chinese_name": "橘朵",
+    "aliases": ["Judydoll", "JUDYDOLL", "橘朵"],
+    "regions": {
+      "国际": ["judydoll.com"],
+      "中国大陆": ["brand.judydoll.com"]
+    }
+  },
+  "Sephora Collection": {
+    "canonical_name": "Sephora Collection",
+    "chinese_name": "丝芙兰自有品牌",
+    "aliases": ["Sephora Collection", "SEPHORA COLLECTION", "丝芙兰", "丝芙兰自有品牌"],
+    "regions": {
+      "中国大陆": ["sephora.cn"],
+      "国际": ["sephora.com"]
+    }
+  },
+  "MAOGEPING": {
+    "canonical_name": "MAOGEPING",
+    "chinese_name": "毛戈平",
+    "aliases": ["MAOGEPING", "MGP", "毛戈平"],
+    "regions": {
+      "中国大陆": ["maogepingbeauty.com", "maogeping.com"]
+    }
+  },
+  "Florasis": {
+    "canonical_name": "Florasis",
+    "chinese_name": "花西子",
+    "aliases": ["Florasis", "FLORASIS", "花西子"],
+    "regions": {
+      "国际": ["florasis.com"]
+    }
+  },
+  "FunnyElves方里": {
+    "canonical_name": "FunnyElves方里",
+    "chinese_name": "方里",
+    "aliases": ["Funny Elves", "FunnyElves", "FunnyElves方里", "方里"],
+    "regions": {
+      "国际": ["funnyelves.com"],
+      "日本": ["jp.funnyelves.com"]
+    }
+  },
+  "FABLOOX": {
+    "canonical_name": "Fabloox",
+    "chinese_name": "Fabloox",
+    "aliases": ["FABLOOX", "Fabloox"],
+    "regions": {
+      "国际": ["fabloox.com"]
+    }
+  },
+  "CLARINS": {
+    "canonical_name": "法国娇韵诗",
+    "chinese_name": "娇韵诗",
+    "aliases": ["CLARINS", "Clarins", "法国娇韵诗", "娇韵诗"],
+    "regions": {
+      "中国大陆": ["clarins.com.cn"],
+      "国际": ["clarins.com"]
+    }
+  },
+  "SHU UEMURA": {
+    "canonical_name": "Shu Uemura",
+    "chinese_name": "植村秀",
+    "aliases": ["SHU UEMURA", "Shu Uemura", "植村秀"],
+    "regions": {
+      "中国大陆": ["shuuemura.com.cn"],
+      "日本": ["shuuemura.jp"],
+      "国际": ["shuuemura-usa.com"]
+    }
+  },
+  "MISTINE": {
+    "canonical_name": "mistine化妆品",
+    "chinese_name": "蜜丝婷",
+    "aliases": ["MISTINE", "Mistine", "mistine化妆品", "蜜丝婷"],
+    "regions": {
+      "泰国": ["mistinecosmetics.com"]
+    }
+  }
+}

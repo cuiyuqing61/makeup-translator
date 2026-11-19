@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-22T04:53:33.205420+00:00",
+  "targets": [
+    {
+      "category": "base",
+      "brand": "Bobbi Brown",
+      "store_name": "BOBBI BROWN芭比波朗官方旗舰店",
+      "query": "BOBBI BROWN芭比波朗 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 3,
+      "products": [
+        {
+          "item_id": "887943861924",
+          "category": "base",
+          "listing_title": "【官方正品】芭比波朗黑磁瓶持妆粉底液防晒保湿控油底妆细腻服帖",
+          "product_name": "芭比波朗轻盈持妆粉底液",
+          "store_name": "BOBBI BROWN芭比波朗官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=887943861924&skuId=5731019400880",
+          "sales_text": "8000+人付款",
+          "net_content": "30ml",
+          "shades": [
+            "#N-012 瓷白/Porcelain",
+            "#W-016 暖瓷白/Warm Porcelain",
+            "#N-032 柔沙/Sand",
+            "#W-046 暖嫩芽/Warm Beige",
+            "#W-036 暖柔沙/Warm Sand",
+            "#W-026 暖象牙白/Warm Ivory",
+            "#N-000 中性雪花白/Neutral Alabaster",
+            "#C-036 冷柔沙/Cool Sand",
+            "#W-056 暖自然/Warm Natural",
+            "#N-052 小麦/Natural",
+            "#C-024 象牙白/Ivory",
+            "#N-010 中性瓷白/Natural Pocelain",
+            "#N-020 中性象牙白/Neutral Ivory",
+            "#C-026 冷象牙白/Cool Ivory",
+            "#NW-022 中性暖象牙白/Neutral Warm Ivory",
+            "#N-042 嫩芽/Beige",
+            "#C-004 雪花白/Alabaster"
+          ],
+          "shade_count": 17,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:33:26.609763+00:00"
+        },
+        {
+          "item_id": "750260039048",
+          "category": "base",
+          "listing_title": "BOBBI BROWN芭比波朗虫草粉霜 防晒保湿紧致瓷光底妆不拔干",
+          "product_name": "芭比波朗密集奢采精华粉霜",
+          "store_name": "BOBBI BROWN芭比波朗官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=750260039048&skuId=5938209604908",
+          "sales_text": "1000+人付款",
+          "net_content": "30ml",
+          "shades": [
+            "【白瓷限定】N12号",
+            "NW-002号",
+            "C-006号",
+            "N-012号",
+            "C-004号",
+            "N-010号",
+            "C-024号",
+            "N-032号",
+            "【白瓷限定】W16号"
+          ],
+          "shade_count": 9,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:33:30.570412+00:00"
+        }
+      ],
+      "collected_at": "2026-09-21T10:33:34.286811+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "Lancome",
+      "store_name": "Lancome兰蔻官方旗舰店",
+      "query": "Lancome兰蔻 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 11,
+      "products": [
+        {
+          "item_id": "574557840514",
+          "category": "base",
+          "listing_title": "【混油挚爱】兰蔻持妆粉底液 持久遮瑕服帖通勤防晒混油油皮底妆",
+          "product_name": "兰蔻持妆粉底液 持久遮瑕服帖通勤防晒混油油皮底妆",
+          "store_name": "Lancome兰蔻官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=574557840514&skuId=5435038946351",
+          "sales_text": "3000+人付款",
+          "net_content": "30ml",
+          "shades": [
+            "【HOT】PO-01 黄一白更匀净",
+            "【HOT】PO-03 黄二白亮半度",
+            "P-01",
+            "B-01 适合橄榄皮",
+            "BO-03 适合小麦调"
+          ],
+          "shade_count": 5,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:33:46.267053+00:00"
+        },
+        {
+          "item_id": "585259823344",
+          "category": "base",
+          "listing_title": "兰蔻菁纯粉底液 细腻遮瑕服帖养肤滋润水润干皮高光底妆",
+          "product_name": "兰蔻菁纯粉底液 细腻遮瑕服帖养肤滋润水润干皮高光底妆",
+          "store_name": "Lancome兰蔻官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=585259823344&skuId=3958747881459",
+          "sales_text": "600+人付款",
+          "net_content": "35ml",
+          "shades": [
+            "100",
+            "110",
+            "90",
+            "130"
+          ],
+          "shade_count": 4,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:33:50.212405+00:00"
+        },
+        {
+          "item_id": "897675467181",
+          "category": "base",
+          "listing_title": "【礼物】兰蔻彩妆套装小粉水气垫口红限定化妆品礼盒生日送礼",
+          "product_name": "兰蔻彩妆套装小粉水气垫口红限定化妆品礼盒生日送礼",
+          "store_name": "Lancome兰蔻官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=897675467181&skuId=6252261622086",
+          "sales_text": "700+人付款",
+          "net_content": null,
+          "shades": [],
+          "shade_count": 0,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:33:53.940692+00:00"
+        }
+      ],
+      "collected_at": "2026-09-21T10:33:53.940729+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "NARS",
+      "store_name": "NARS官方旗舰店",
+      "query": "NARS 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 12,
+      "products": [
+        {
+          "item_id": "1042348550866",
+          "category": "base",
+          "listing_title": "【李佳琦出游上镜妆&痘肌护理】NARS超方瓶流光美肌粉底液养肤",
+          "product_name": "NARS超方瓶流光美肌粉底液养肤",
+          "store_name": "NARS官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=1042348550866&skuId=6229610623552",
+          "sales_text": "3万+人付款",
+          "net_content": "30ml",
+          "shades": [
+            "【亚洲新色】L1.5 刚刚好的中性1白",
+            "L2 经典自然白",
+            "【亚洲新色】L1.25 黄1白 减黄提亮不假白",
+            "【亚洲新色】L0.5 粉1白 冷白皮天菜",
+            "DEAUVILLE L4 黄调健康色",
+            "OSLO L1"
+          ],
+          "shade_count": 6,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:34:05.562078+00:00"
+        },
+        {
+          "item_id": "765752880720",
+          "category": "base",
+          "listing_title": "【官方正品】NARS超方瓶粉底 轻薄润贴持妆不卡粉混干皮自然",
+          "product_name": "NARS超方瓶粉底 轻薄润贴持妆不卡粉混干皮自然",
+          "store_name": "NARS官方旗舰店",
+          "item_url": "https://detail.tmall.com/item.htm?id=765752880720&skuId=5434649262624",
+          "sales_text": "5000+人付款",
+          "net_content": "30ml",
+          "shades": [
+            "【亚洲新色 闭眼入】L1.5 刚刚好的中性1白",
+            "L2 经典自然白",
+            "【亚洲新色】L0.5 粉1白 冷白皮天菜",
+            "【亚洲新色】L1.25 黄1白 减黄提亮不假白",
+            "【亚洲新色】L1.75 黄调自然色",
+            "SIBERIA L0 适合白皙/橄榄皮",
+            "GOBI L3",
+            "DEAUVILLE L4",
+            "OSLO L1",
+            "LIMA L3.25"
+          ],
+          "shade_count": 10,
+          "shade_collection_basis": "all currently visible 颜色分类 options on the verified detail page",
+          "verified_at": "2026-09-21T10:34:09.253464+00:00"
+        }
+      ],
+      "collected_at": "2026-09-21T10:34:40.691036+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "彩棠",
+      "store_name": "彩棠旗舰店",
+      "query": "彩棠 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-22T04:46:36.699667+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "L'Oreal Paris",
+      "store_name": "欧莱雅彩妆官方旗舰店",
+      "query": "欧莱雅彩妆 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:35:17.964595+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "六宫粉黛",
+      "store_name": "六宫粉黛旗舰店",
+      "query": "六宫粉黛 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-22T04:48:55.475180+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "FunnyElves方里",
+      "store_name": "FunnyElves方里官方旗舰店",
+      "query": "FunnyElves方里 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:35:55.041961+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "MAOGEPING",
+      "store_name": "MAOGEPING毛戈平官方旗舰店",
+      "query": "MAOGEPING毛戈平 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:36:13.617419+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "Shu Uemura",
+      "store_name": "shu uemura植村秀官方旗舰店",
+      "query": "shu uemura植村秀 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:36:32.082740+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "Florasis",
+      "store_name": "花西子旗舰店",
+      "query": "花西子 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:36:50.648062+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "Fabloox",
+      "store_name": "Fabloox旗舰店",
+      "query": "Fabloox 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:37:09.135119+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "MAC",
+      "store_name": "MAC魅可官方旗舰店",
+      "query": "MAC魅可 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:37:27.658554+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "法国娇韵诗",
+      "store_name": "法国娇韵诗官方旗舰店",
+      "query": "法国娇韵诗 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:37:46.140339+00:00"
+    },
+    {
+      "category": "eyeliner",
+      "brand": "FunnyElves方里",
+      "store_name": "FunnyElves方里官方旗舰店",
+      "query": "FunnyElves方里 眼线笔 眼线液 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-22T04:53:32.990127+00:00"
+    },
+    {
+      "category": "lip",
+      "brand": "mistine化妆品",
+      "store_name": "mistine化妆品旗舰店",
+      "query": "mistine化妆品 口红 唇釉 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-21T10:38:23.195123+00:00"
+    },
+    {
+      "category": "base",
+      "brand": "YSL Beauty",
+      "store_name": "YSL圣罗兰美妆官方旗舰店",
+      "query": "YSL圣罗兰美妆 粉底液 底妆 官方旗舰店 正装",
+      "candidate_count": 0,
+      "products": [],
+      "collected_at": "2026-09-22T04:51:14.243111+00:00"
+    }
+  ]
+}

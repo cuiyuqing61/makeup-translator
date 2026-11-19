@@ -1,0 +1,4883 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-21",
+  "ranking_note": "每类前30为淘宝销量排序旗舰店结果与公开榜单补位；用户指定品牌额外保留。淘宝结果受广告、个性化和公开页可见性影响。",
+  "source_policy": [
+    "official_site",
+    "official_flagship_tmall",
+    "official_flagship_taobao",
+    "authorized_retailer_sephora"
+  ],
+  "shade_policy": "每个入选产品系列采集来源页面公开列出的全部色号，不推断缺失色号。",
+  "sources": {
+    "user_seed": {
+      "metric": "用户指定优先覆盖",
+      "observed_at": "2026-09-21"
+    },
+    "xhs_2025": {
+      "title": "小红书 2025 彩妆行业趋势灵感图鉴",
+      "metric": "灵犀库单品人群资质榜/热度洞察，非销量",
+      "period": "数据截至 2025-01",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202511281790090499_1.pdf?1764364104000.pdf="
+    },
+    "douyin_2025": {
+      "title": "2025 上半年飞瓜抖音电商与广告投放报告及年度行业报道",
+      "metric": "第三方估算销售热度，非抖音官方销量",
+      "period": "2025",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202508051721763168"
+    },
+    "taobao_sales_search": {
+      "title": "淘宝销量排序搜索页",
+      "metric": "Taobao search results ordered by sales; only Tmall/Taobao store names containing 旗舰店 are retained",
+      "captured_at": "2026-09-21T09:38:29.624661+00:00",
+      "url": "https://s.taobao.com/search"
+    }
+  },
+  "categories": {
+    "base": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 39,
+      "targets": [
+        {
+          "brand": "蒂洛薇",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "蒂洛薇官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1078209307564&skuId=6296904974995",
+            "sales_text": "300+人付款",
+            "raw_result_position": 1,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "BOBBI BROWN芭比波朗官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=892899312692&skuId=5741161317159",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 2,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 26,
+          "product_line_count": 2
+        },
+        {
+          "brand": "mistine化妆品",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "mistine化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=624673019748&skuId=5951389076259",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 3,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Passional Lover",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Passional Lover旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=673983071928&skuId=5980108388673",
+            "sales_text": "20万+人付款",
+            "raw_result_position": 4,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "TheOrdinary",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "TheOrdinary海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1014059596919&skuId=6181467579027",
+            "sales_text": "4000+人付款",
+            "raw_result_position": 5,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Lancome",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Lancome兰蔻官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1039918039266&skuId=6226600595995",
+            "sales_text": "9000+人付款",
+            "raw_result_position": 6,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 9,
+          "product_line_count": 2
+        },
+        {
+          "brand": "NARS",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "NARS官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=962561958229&skuId=6064646934598",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 7,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 16,
+          "product_line_count": 2
+        },
+        {
+          "brand": "John Jeff",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "John Jeff旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1042001879325&skuId=6105765977261",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 9,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "DPDP",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "DPDP官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=734688438310&skuId=6080804151803",
+            "sales_text": "30万+人付款",
+            "raw_result_position": 10,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "彩棠",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "candidate_listing_pending_review",
+          "taobao": {
+            "store_name": "彩棠旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1051815352234&skuId=6081754621204",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 11,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "UNNY CLUB",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "UNNYCLUB官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=597865016633&skuId=5565741048301",
+            "sales_text": "20万+人付款",
+            "raw_result_position": 13,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "欧莱雅彩妆官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=615841480874&skuId=4341893880908",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 15,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 61,
+          "product_line_count": 2
+        },
+        {
+          "brand": "卡姿兰",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "卡姿兰官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=608068592627&skuId=6213835079341",
+            "sales_text": "30万+人付款",
+            "raw_result_position": 16,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "六宫粉黛",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "candidate_listing_pending_review",
+          "taobao": {
+            "store_name": "六宫粉黛旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=786532262289&skuId=6182258951117",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 18,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "doscoo",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "doscoo旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1002928476274&skuId=6156159315507",
+            "sales_text": "8000+人付款",
+            "raw_result_position": 19,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Estee Lauder",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Estee Lauder雅诗兰黛官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=737826192317&skuId=5696415212226",
+            "sales_text": "30万+人付款",
+            "raw_result_position": 22,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "料堆堆",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "料堆堆旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1080506355811&skuId=6303420539959",
+            "sales_text": "1000+人付款",
+            "raw_result_position": 23,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=564446912358&skuId=6137464225321",
+            "sales_text": "8万+人付款",
+            "raw_result_position": 24,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "FunnyElves方里",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "FunnyElves方里官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=808297773390&skuId=6195422106137",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 26,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 7,
+          "product_line_count": 3
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "MAOGEPING毛戈平官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=797985962393&skuId=5438570184929",
+            "sales_text": "5万+人付款",
+            "raw_result_position": 30,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 10,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Shu Uemura",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "shu uemura植村秀官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=789633831315&skuId=5953785768709",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 31,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 40,
+          "product_line_count": 2
+        },
+        {
+          "brand": "Florasis",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "花西子旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=838218008228&skuId=5767168151649",
+            "sales_text": "5万+人付款",
+            "raw_result_position": 32,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 12,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Armani Beauty",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "GIORGIO ARMANI阿玛尼美妆官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=721449661855&skuId=6297084935586",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 33,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "菲蔻思",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "菲蔻思旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=972871379499&skuId=6092175619505",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 36,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Fabloox",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Fabloox旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=679531091714&skuId=6102395718458",
+            "sales_text": "9000+人付款",
+            "raw_result_position": 44,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 12,
+          "product_line_count": 3
+        },
+        {
+          "brand": "MAC",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "MAC魅可官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=918042118470&skuId=6079191281460",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 45,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 134,
+          "product_line_count": 2
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "YSL圣罗兰美妆官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=996481201526&skuId=6141534390471",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 47,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 71,
+          "product_line_count": 2
+        },
+        {
+          "brand": "Dior Beauty",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "DIOR迪奥官方旗舰店 香水与美容品",
+            "item_url": "https://detail.tmall.com/item.htm?id=718674868801&skuId=5183278806013",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 48,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "socorskin修可芙",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "socorskin修可芙旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=829386432249&skuId=5562199873579",
+            "sales_text": "7万+人付款",
+            "raw_result_position": 58,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "法国娇韵诗",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "法国娇韵诗官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1013987085904&skuId=6027822405250",
+            "sales_text": "8万+人付款",
+            "raw_result_position": 71,
+            "query": "底妆 粉底液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 17,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 8,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 9,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 36,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 9,
+          "product_line_count": 3
+        },
+        {
+          "brand": "KATE",
+          "priority": 37,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 38,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 39,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "brow": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 36,
+      "targets": [
+        {
+          "brand": "John Jeff",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "John Jeff旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1054305562094&skuId=6094932928691",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 1,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=546686906286&skuId=5884973363475",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 3,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "诗佩妮",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "诗佩妮旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=728604720775&skuId=5992493409875",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 4,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "玛丽黛佳",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "玛丽黛佳旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=520923746904&skuId=3201731612466",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 5,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "sana莎娜",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "sana莎娜旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=40721957899&skuId=6038009708968",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 7,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 2,
+          "product_line_count": 2
+        },
+        {
+          "brand": "FLORTTE",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "FLORTTE花洛莉亚旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1029909750659&skuId=6208570419445",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 8,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "JUDYDOLL橘朵旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=651275388705&skuId=4703974869942",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 9,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 10,
+          "product_line_count": 4
+        },
+        {
+          "brand": "KATE",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "KATE海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=983998981828&skuId=6077850096579",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 11,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "漫野",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "漫野旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=965581170042&skuId=5909033752462",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 17,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "wandao",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "wandao海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=710378085433&skuId=5882490094329",
+            "sales_text": "700+人付款",
+            "raw_result_position": 18,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "perfectdiary旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=558196853243&skuId=4910546709144",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 22,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 7,
+          "product_line_count": 3
+        },
+        {
+          "brand": "miniso名创优品",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "miniso名创优品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=917996445584&skuId=5808674345533",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 28,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "doscoo",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "doscoo旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1066148644938&skuId=6276890907246",
+            "sales_text": "4000+人付款",
+            "raw_result_position": 29,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "桃又野",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "桃又野旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=919142884990&skuId=6127959745024",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 46,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "ukiss",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "ukiss旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1072957739759&skuId=6137557633979",
+            "sales_text": "700+人付款",
+            "raw_result_position": 47,
+            "query": "眉笔 眉粉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "SanZiTang",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Shu Uemura",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "OETE",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "UNNY CLUB",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Kiss Me Heroine Make",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Little Ondine",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "TIMAGE",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 7,
+          "product_line_count": 3
+        },
+        {
+          "brand": "MAC",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Anastasia Beverly Hills",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Benefit",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 36,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "eyeshadow": {
+      "ranked_target_count": 30,
+      "user_seed_count": 14,
+      "collection_target_count": 30,
+      "targets": [
+        {
+          "brand": "holdlive",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "holdlive旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=713745841244&skuId=4998388425183",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 5,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "gogotales",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "gogotales旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=694211381957&skuId=5099070646815",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 6,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "喜澄驹",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "喜澄驹旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=783574928297&skuId=6141448895517",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 7,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "cookytree",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "cookytree旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=861728203848&skuId=5682627877890",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 9,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "labiocos",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "labiocos旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=772824144939&skuId=5292792217724",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 12,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "pinkbear",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "pinkbear旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=645122674225&skuId=5520838476782",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 19,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=556936942744&skuId=4224309709822",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 24,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "初贝诗",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "初贝诗旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=793578820693&skuId=5652317553438",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 32,
+            "query": "眼影 眼影盘",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Urban Decay",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 10,
+          "product_line_count": 3
+        },
+        {
+          "brand": "3CE",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Charlotte Tilbury",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Tom Ford Beauty",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 5,
+          "product_line_count": 3
+        },
+        {
+          "brand": "MUKK",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAC",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 3,
+          "product_line_count": 2
+        },
+        {
+          "brand": "Chanel",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Dior Beauty",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 13,
+          "product_line_count": 3
+        },
+        {
+          "brand": "KATE",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 8,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Excel",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "NARS",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Natasha Denona",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "eyeliner": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 39,
+      "targets": [
+        {
+          "brand": "火烈鸟化妆品",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "火烈鸟化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=37272655425&skuId=4023793729978",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 1,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "芭贝拉",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "芭贝拉旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=644473302927&skuId=4635565428045",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 5,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "FLORTTE",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "FLORTTE花洛莉亚旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=620687570293&skuId=6112538952456",
+            "sales_text": "8万+人付款",
+            "raw_result_position": 6,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Goodgudi古迪",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Goodgudi古迪旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=887530270279&skuId=5955191151755",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 7,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "AMORTALS尔木萄",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "AMORTALS尔木萄官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=638410653835&skuId=6106239937573",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 9,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "漫野",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "漫野旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1001238736140&skuId=6151473246391",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 10,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "mistine化妆品",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "mistine化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=860060129214&skuId=5841624302026",
+            "sales_text": "7000+人付款",
+            "raw_result_position": 11,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=12459362636&skuId=6131929072404",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 12,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "FunnyElves方里",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "candidate_listing_pending_review",
+          "taobao": {
+            "store_name": "FunnyElves方里官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1051134197680&skuId=6246795879418",
+            "sales_text": "400+人付款",
+            "raw_result_position": 15,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "3CE",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "3CE官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=874541066823&skuId=5710407064698",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 18,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "健美创研",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "健美创研官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=718391812249&skuId=6129805189569",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 20,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "xixi",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "xixi旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=831760189751&skuId=5740260666522",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 23,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "perfectdiary旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=559100750752&skuId=4294898601471",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 24,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 8,
+          "product_line_count": 3
+        },
+        {
+          "brand": "稚优泉化妆品",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "稚优泉化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=721613437456&skuId=5167604925796",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 26,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "JUDYDOLL橘朵旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=779558376664&skuId=5802542521608",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 27,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 14,
+          "product_line_count": 4
+        },
+        {
+          "brand": "miniso名创优品",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "miniso名创优品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=967449478026&skuId=5915788585150",
+            "sales_text": "8万+人付款",
+            "raw_result_position": 30,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "三资堂",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "三资堂官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1036651817675&skuId=6060673609928",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 33,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "柏黛雅",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "柏黛雅旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=869413589213&skuId=5699642209921",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 34,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "欧凯曼",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "欧凯曼旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=945728996495&skuId=5937091461726",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 35,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "CANMAKE海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=634665062272&skuId=4537653409530",
+            "sales_text": "9000+人付款",
+            "raw_result_position": 37,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 17,
+          "product_line_count": 4
+        },
+        {
+          "brand": "Kiss Me Heroine Make",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "KISSME奇士美官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=586891579304&skuId=6069307044955",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 40,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "韩方五谷",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "韩方五谷官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=857880957879&skuId=5841535654748",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 45,
+            "query": "眼线笔 眼线液",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "UNNY CLUB",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "UZU",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Little Ondine",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Love Liner",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "VEECCI",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "KATE",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 4,
+          "product_line_count": 2
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAC",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 36,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 37,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 38,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 39,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "mascara": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 38,
+      "targets": [
+        {
+          "brand": "Kiss Me Heroine Make",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "KISSME奇士美官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=594832999306&skuId=6301681127417",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 1,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "mistine化妆品",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "mistine化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=724370234779&skuId=5201328950866",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 2,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "piara",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "piara旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=776253692581&skuId=5498415069815",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 3,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "ettusais艾杜纱",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "ettusais艾杜纱海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=571816728050&skuId=4723357550085",
+            "sales_text": "5万+人付款",
+            "raw_result_position": 4,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "JUDYDOLL橘朵旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=618771930343&skuId=4536631814968",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 5,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 16,
+          "product_line_count": 4
+        },
+        {
+          "brand": "everbab",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "everbab旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=637377624449&skuId=6301454486745",
+            "sales_text": "7万+人付款",
+            "raw_result_position": 10,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "drogistplein",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "drogistplein海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=679367466042&skuId=5330228599545",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 12,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "健美创研",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "健美创研官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=826746914686&skuId=5552382393704",
+            "sales_text": "10万+人付款",
+            "raw_result_position": 14,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "小奥汀",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "小奥汀官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=618298371372&skuId=5308964335828",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 15,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "UIMO",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "UIMO官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=777552570015&skuId=5665880233211",
+            "sales_text": "6000+人付款",
+            "raw_result_position": 22,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "miniso名创优品",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "miniso名创优品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=713175757428&skuId=6056876072101",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 24,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "ukiss",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "ukiss旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1060411662325&skuId=6112490824642",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 25,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "perfectdiary旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=598027775130&skuId=4420437595759",
+            "sales_text": "8000+人付款",
+            "raw_result_position": 29,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 3,
+          "product_line_count": 2
+        },
+        {
+          "brand": "韩格",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "韩格旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=624070179396&skuId=4413331417421",
+            "sales_text": "2000+人付款",
+            "raw_result_position": 30,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "INSBAHA原色波塔",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "INSBAHA原色波塔旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=703713342610&skuId=5124356894780",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 31,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "芭贝拉",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "芭贝拉旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=629952903477&skuId=4648737279166",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 32,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "jillleen",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "jillleen旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1038844046740&skuId=6223236295687",
+            "sales_text": "1000+人付款",
+            "raw_result_position": 38,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "ZEESEA滋色",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "ZEESEA滋色旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=573822032788&skuId=4898332635260",
+            "sales_text": "7000+人付款",
+            "raw_result_position": 39,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "da",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "da海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=803071528786&skuId=6252040686520",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 41,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "novo",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "novo旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=820530753894&skuId=6301375583850",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 43,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "xixi",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "xixi旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=671850707555&skuId=5496149931865",
+            "sales_text": "2000+人付款",
+            "raw_result_position": 47,
+            "query": "睫毛膏 睫毛打底",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "SanZiTang",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "UNNY CLUB",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "AKF",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "KATE",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 6,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Excel",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAC",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 36,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 37,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 38,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "contour": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 36,
+      "targets": [
+        {
+          "brand": "Too Cool For School",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "toocoolforschool旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=538468410513&skuId=6010343439973",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 2,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "MAOGEPING毛戈平官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=710773867510&skuId=6129275244010",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 4,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "彩棠",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "彩棠旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=622342134789&skuId=6002565648529",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 7,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Joocyee",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Joocyee酵色官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=837025592723&skuId=6279334042472",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 8,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "3CE",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "3CE官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=675027210671&skuId=6253492634419",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 9,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "jillleen",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "jillleen旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=590735103856&skuId=4868070616259",
+            "sales_text": "8万+人付款",
+            "raw_result_position": 12,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "诗佩妮",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "诗佩妮旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=680913921499&skuId=6115466921938",
+            "sales_text": "5万+人付款",
+            "raw_result_position": 13,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "小奥汀",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "小奥汀官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=642341328251&skuId=5436346873982",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 15,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "JUDYDOLL橘朵旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1069025385629&skuId=6120971877343",
+            "sales_text": "2000+人付款",
+            "raw_result_position": 19,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 12,
+          "product_line_count": 4
+        },
+        {
+          "brand": "INSBAHA原色波塔",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "INSBAHA原色波塔旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=982810908433&skuId=6133056920276",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 22,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "桃又野",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "桃又野旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1055095043181&skuId=6296503226119",
+            "sales_text": "500+人付款",
+            "raw_result_position": 23,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Goodgudi古迪",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Goodgudi古迪旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1047761112778&skuId=6078807781677",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 29,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "cookytree",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "cookytree旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=968763004945&skuId=6081446615403",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 30,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "ceekay",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "ceekay旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=787648113116&skuId=5547187591147",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 33,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "NYCEMAKEUP",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "NYCEMAKEUP旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=650368924085&skuId=4696082461974",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 37,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "FOREVER KEY",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "FOREVERKEY旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=722250898293&skuId=5861174872289",
+            "sales_text": "7万+人付款",
+            "raw_result_position": 40,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "gracebabi",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "gracebabi旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=973462655310&skuId=5927633509047",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 41,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "蒙丽丝",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "蒙丽丝旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1036966848618&skuId=6222814955523",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 45,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "MUKK",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Mooekiss木柯诗旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1058393926258&skuId=6102313656468",
+            "sales_text": "900+人付款",
+            "raw_result_position": 46,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "John Jeff",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "John Jeff旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1059703692770&skuId=6266379227047",
+            "sales_text": "6000+人付款",
+            "raw_result_position": 47,
+            "query": "修容 阴影",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "TIMAGE",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "OUT-OF-OFFICE",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 2,
+          "product_line_count": 1
+        },
+        {
+          "brand": "MAC",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Fenty Beauty",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 5,
+          "product_line_count": 2
+        },
+        {
+          "brand": "KATE",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 36,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "highlighter": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 35,
+      "targets": [
+        {
+          "brand": "gellas",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "gellas旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=749321958744&skuId=5338799587965",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 2,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "白日梦醒家",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "白日梦醒家旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=781285984364&skuId=5507712015041",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 4,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "OUT-OF-OFFICE",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "outofoffice旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=661709722585&skuId=6132120128969",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 8,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "julygirl",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "julygirl旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=737579218915&skuId=5966582458109",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 10,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=888702828560&skuId=5734059096122",
+            "sales_text": "4000+人付款",
+            "raw_result_position": 11,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "CANMAKE海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=689726009520&skuId=4911675673371",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 12,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 9,
+          "product_line_count": 3
+        },
+        {
+          "brand": "原画师",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "原画师旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1018231693994&skuId=6066176697917",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 15,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "稚优泉化妆品",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "稚优泉化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=778154045643&skuId=5988904457671",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 16,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "pinkbear",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "pinkbear旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=819067707861&skuId=6080710986621",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 19,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "三资堂",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "三资堂官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1061291277375&skuId=6107071192069",
+            "sales_text": "9000+人付款",
+            "raw_result_position": 22,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Girlcult",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "girlcult旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=598392260399&skuId=5946678520283",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 26,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "FLORTTE",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "FLORTTE花洛莉亚旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=759958745575&skuId=6141381791760",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 27,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "JUDYDOLL橘朵旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=708802488307&skuId=4978016229559",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 34,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 18,
+          "product_line_count": 4
+        },
+        {
+          "brand": "cheerflor",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "cheerflor旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=742935999645&skuId=6123987080093",
+            "sales_text": "6000+人付款",
+            "raw_result_position": 35,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "cookytree",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "cookytree旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1010789366395&skuId=6012229480789",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 36,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "colourfeel",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "colourfeel旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=695499689538&skuId=5110740963579",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 41,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Goodgudi古迪",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "Goodgudi古迪旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1047761112778&skuId=6078807781677",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 44,
+            "query": "高光 提亮",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Shishinyu",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Yuanqi Formula",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "TIMAGE",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Little Ondine",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAC",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Red Chamber",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 11,
+          "product_line_count": 3
+        },
+        {
+          "brand": "KATE",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "blush": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 33,
+      "targets": [
+        {
+          "brand": "CANMAKE",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "CANMAKE海外旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=528904311235&skuId=3149866950609",
+            "sales_text": "4万+人付款",
+            "raw_result_position": 4,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 17,
+          "product_line_count": 4
+        },
+        {
+          "brand": "谢馥春",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "谢馥春官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=15530027330&skuId=3103817688039",
+            "sales_text": "1000+人付款",
+            "raw_result_position": 5,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "wetnwild",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "wetnwild旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1028912180597&skuId=6203885402116",
+            "sales_text": "3000+人付款",
+            "raw_result_position": 6,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "稚优泉化妆品",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "稚优泉化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=755215687547&skuId=5379087991706",
+            "sales_text": "7万+人付款",
+            "raw_result_position": 13,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Florasis",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "花西子旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=596316775451&skuId=6054847485912",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 18,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 6,
+          "product_line_count": 4
+        },
+        {
+          "brand": "卡姿兰",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "卡姿兰官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=994896766004&skuId=6197680635125",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 19,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=707794098589&skuId=6059040593544",
+            "sales_text": "4000+人付款",
+            "raw_result_position": 29,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "韵今初",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "韵今初旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1037399907865&skuId=6221771094679",
+            "sales_text": "4000+人付款",
+            "raw_result_position": 34,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "ceekay",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "ceekay旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=692493057505&skuId=5092122591404",
+            "sales_text": "9000+人付款",
+            "raw_result_position": 35,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "HOSQ",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "HOSQ旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=866819920697&skuId=5691472076192",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 42,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "蜜肤琳",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "蜜肤琳旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=796262063590&skuId=5601544087351",
+            "sales_text": "4000+人付款",
+            "raw_result_position": 43,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "茉菲希",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "茉菲希旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=997936661207&skuId=5985524448543",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 44,
+            "query": "腮红 胭脂",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "FOREVER KEY",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Red Chamber",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "NARS",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "TIMAGE",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 26,
+          "product_line_count": 4
+        },
+        {
+          "brand": "3CE",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 19,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Yuanqi Formula",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Dior Beauty",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "KATE",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 2,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 20,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAC",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    },
+    "lip": {
+      "ranked_target_count": 30,
+      "user_seed_count": 15,
+      "collection_target_count": 36,
+      "targets": [
+        {
+          "brand": "COLORGRAM",
+          "priority": 1,
+          "ranking_position": 1,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "COLORGRAM旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1010098799518&skuId=6225181378805",
+            "sales_text": "5000+人付款",
+            "raw_result_position": 1,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 2,
+          "product_line_count": 2
+        },
+        {
+          "brand": "pinkbear",
+          "priority": 2,
+          "ranking_position": 2,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "pinkbear旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=828724764895&skuId=6080701106632",
+            "sales_text": "6万+人付款",
+            "raw_result_position": 2,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Maybelline",
+          "priority": 3,
+          "ranking_position": 3,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "美宝莲旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=779260458652&skuId=5821445539893",
+            "sales_text": "2万+人付款",
+            "raw_result_position": 6,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "wetnwild",
+          "priority": 4,
+          "ranking_position": 4,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "wetnwild旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1058320198609&skuId=6102230680837",
+            "sales_text": "600+人付款",
+            "raw_result_position": 14,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "UPTOU",
+          "priority": 5,
+          "ranking_position": 5,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "UPTOU旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1055964828212&skuId=6259535390986",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 15,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "卡姿兰",
+          "priority": 6,
+          "ranking_position": 6,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "卡姿兰官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1048446938766&skuId=6277456035688",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 21,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "CARMELA卡梅拉",
+          "priority": 7,
+          "ranking_position": 7,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "CARMELA卡梅拉旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=735451486912&skuId=5085005285685",
+            "sales_text": "9000+人付款",
+            "raw_result_position": 24,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "mistine化妆品",
+          "priority": 8,
+          "ranking_position": 8,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "mistine化妆品旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1003510902295&skuId=5996432137531",
+            "sales_text": "3万+人付款",
+            "raw_result_position": 26,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 11,
+          "product_line_count": 3
+        },
+        {
+          "brand": "SPLASHEEN水花川行",
+          "priority": 9,
+          "ranking_position": 9,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "SPLASHEEN水花川行旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=920101385159&skuId=6043461644300",
+            "sales_text": "900+人付款",
+            "raw_result_position": 42,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "MUJI",
+          "priority": 10,
+          "ranking_position": 10,
+          "ranking_basis": "taobao_sales_sorted_flagship_result",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "taobao": {
+            "store_name": "无印良品MUJI官方旗舰店",
+            "item_url": "https://detail.tmall.com/item.htm?id=1021177103373&skuId=6198344502606",
+            "sales_text": "1万+人付款",
+            "raw_result_position": 43,
+            "query": "口红 唇釉",
+            "captured_at": "2026-09-21T09:38:29.624661+00:00"
+          },
+          "shade_record_count": 1,
+          "product_line_count": 1
+        },
+        {
+          "brand": "Estee Lauder",
+          "priority": 11,
+          "ranking_position": 11,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "YSL Beauty",
+          "priority": 12,
+          "ranking_position": 12,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Lancome",
+          "priority": 13,
+          "ranking_position": 13,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Dior Beauty",
+          "priority": 14,
+          "ranking_position": 14,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAC",
+          "priority": 15,
+          "ranking_position": 15,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "3CE",
+          "priority": 16,
+          "ranking_position": 16,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Tom Ford Beauty",
+          "priority": 17,
+          "ranking_position": 17,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "NARS",
+          "priority": 18,
+          "ranking_position": 18,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Charlotte Tilbury",
+          "priority": 19,
+          "ranking_position": 19,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Armani Beauty",
+          "priority": 20,
+          "ranking_position": 20,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "FOREVER KEY",
+          "priority": 21,
+          "ranking_position": 21,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MUKK",
+          "priority": 22,
+          "ranking_position": 22,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Chanel",
+          "priority": 23,
+          "ranking_position": 23,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "INTO YOU",
+          "priority": 24,
+          "ranking_position": 24,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "UNNY CLUB",
+          "priority": 25,
+          "ranking_position": 25,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": false,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Givenchy Beauty",
+          "priority": 26,
+          "ranking_position": 26,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "L'Oreal Paris",
+          "priority": 27,
+          "ranking_position": 27,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Bobbi Brown",
+          "priority": 28,
+          "ranking_position": 28,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "CANMAKE",
+          "priority": 29,
+          "ranking_position": 29,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 8,
+          "product_line_count": 3
+        },
+        {
+          "brand": "KATE",
+          "priority": 30,
+          "ranking_position": 30,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Excel",
+          "priority": 31,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "Flower Knows",
+          "priority": 32,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 37,
+          "product_line_count": 5
+        },
+        {
+          "brand": "Perfect Diary",
+          "priority": 33,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 27,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Judydoll",
+          "priority": 34,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "ingested",
+          "shade_record_count": 37,
+          "product_line_count": 3
+        },
+        {
+          "brand": "Sephora Collection",
+          "priority": 35,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        },
+        {
+          "brand": "MAOGEPING",
+          "priority": 36,
+          "ranking_position": null,
+          "ranking_basis": "social_or_category_portfolio_fill",
+          "user_seed": true,
+          "target_product_lines": 3,
+          "status": "pending_collection",
+          "shade_record_count": 0,
+          "product_line_count": 0
+        }
+      ]
+    }
+  }
+}

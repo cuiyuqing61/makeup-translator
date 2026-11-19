@@ -1,0 +1,11 @@
+{
+  "qwen_identity_search_calls": 1,
+  "qwen_review_search_calls": 1,
+  "qwen_extraction_calls": 1,
+  "schema_repair_calls": 1,
+  "pages_to_validate": 2,
+  "page_validation_concurrency": 2,
+  "page_timeout_seconds": 5,
+  "foreground_wait_seconds": 8,
+  "hard_deadline_seconds": 60
+}

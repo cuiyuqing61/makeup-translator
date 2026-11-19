@@ -1,0 +1,37 @@
+[
+  {
+    "brand": "Judydoll",
+    "feed_url": "https://judydoll.com/collections/best-sellers/products.json?limit=250",
+    "site_root": "https://judydoll.com",
+    "source_kind": "official_site",
+    "selection_basis": "official_best_sellers_collection_order"
+  },
+  {
+    "brand": "Flower Knows",
+    "feed_url": "https://flowerknows.co/collections/best-sellers/products.json?limit=250",
+    "site_root": "https://flowerknows.co",
+    "source_kind": "official_site",
+    "selection_basis": "official_best_sellers_collection_order"
+  },
+  {
+    "brand": "Perfect Diary",
+    "feed_url": "https://www.perfectdiary.com/products.json?limit=250",
+    "site_root": "https://www.perfectdiary.com",
+    "source_kind": "official_site",
+    "selection_basis": "official_catalog_feed_order"
+  },
+  {
+    "brand": "Florasis",
+    "feed_url": "https://florasis.com/products.json?limit=250",
+    "site_root": "https://florasis.com",
+    "source_kind": "official_site",
+    "selection_basis": "official_catalog_feed_order"
+  },
+  {
+    "brand": "FunnyElves方里",
+    "feed_url": "https://jp.funnyelves.com/products.json?limit=250",
+    "site_root": "https://jp.funnyelves.com",
+    "source_kind": "official_site",
+    "selection_basis": "official_japan_catalog_feed_order"
+  }
+]

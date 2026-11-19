@@ -1,0 +1,1436 @@
+[
+  {
+    "id": "complexion-sponge-foundation",
+    "title": "海绵轻拍液体底妆",
+    "region": "complexion",
+    "effects": [
+      "自然",
+      "轻薄",
+      "satin"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "干净的化妆海绵"
+    ],
+    "product_categories": [
+      "base"
+    ],
+    "required_product_kinds": [
+      "foundation"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "先确认海绵清洁，再取少量液体粉底到海绵上。",
+        "success_signal": "海绵表面只有薄薄一层产品。"
+      },
+      {
+        "order": 2,
+        "instruction": "用滚动与轻拍动作把底妆铺匀，鼻翼等窄处改用尖端。",
+        "success_signal": "面颊与鼻翼衔接，未留下海绵印。"
+      }
+    ],
+    "beginner_shortcut": "少量粉底放在干净海绵上，先拍面中，再用尖端拍鼻翼；不够再补。",
+    "adaptation_rules": [
+      "想保留皮肤纹理时先停在一层；需要更多遮盖时仅局部叠加。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "A Foolproof Guide on How to Apply Foundation",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-apply-foundation-the-best-way",
+    "source_section": "HOW TO APPLY FOUNDATION WITH A MAKEUP SPONGE / STEP #1–3",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 4,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "complexion-brush-foundation",
+    "title": "刷具均匀铺开底妆",
+    "region": "complexion",
+    "effects": [
+      "均匀",
+      "遮盖",
+      "matte"
+    ],
+    "suitable_for": [
+      "日常",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "干净的粉底刷"
+    ],
+    "product_categories": [
+      "base"
+    ],
+    "required_product_kinds": [
+      "foundation"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "使用清洁粉底刷，少量取液体粉底。",
+        "success_signal": "刷毛不结成厚团。"
+      },
+      {
+        "order": 2,
+        "instruction": "以短而向下的笔触铺开，再把相邻区域的接缝刷匀。",
+        "success_signal": "没有明显刷痕或粉底边界。"
+      }
+    ],
+    "beginner_shortcut": "从面中开始用短笔触薄刷，接缝处用刷子余量带匀。",
+    "adaptation_rules": [
+      "刷痕明显时换干净海绵轻拍边界。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "A Foolproof Guide on How to Apply Foundation",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-apply-foundation-the-best-way",
+    "source_section": "HOW TO APPLY FOUNDATION WITH A BRUSH / STEP #1–3",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 4,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "complexion-spot-conceal",
+    "title": "局部遮盖色斑或泛红",
+    "region": "complexion",
+    "effects": [
+      "局部遮瑕",
+      "均匀"
+    ],
+    "suitable_for": [
+      "日常",
+      "intermediate"
+    ],
+    "avoid_when": [
+      "局部皮肤破损或明显刺激"
+    ],
+    "tools": [
+      "干净的遮瑕刷"
+    ],
+    "product_categories": [
+      "base"
+    ],
+    "required_product_kinds": [
+      "concealer"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用干净小刷取接近肤色的遮瑕，仅点在想修饰的位置。",
+        "success_signal": "遮瑕范围不明显大于目标区域。"
+      },
+      {
+        "order": 2,
+        "instruction": "轻拍边缘与底妆衔接，中心保留遮盖。",
+        "success_signal": "远看颜色过渡自然，局部未堆成厚块。"
+      }
+    ],
+    "beginner_shortcut": "遮瑕只点目标处，轻拍外圈，不反复抹掉中心。",
+    "adaptation_rules": [
+      "颜色校正只在用户已有相应产品且自行确认色调时采用；不对皮肤状况作诊断。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Where to Put Concealer to Brighten, Lift, and Perfect Your Look",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/where-to-apply-concealer-on-your-face",
+    "source_section": "Where to Put Concealer / Carefully Cover Blemishes",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 3,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "complexion-under-eye-conceal",
+    "title": "眼下少量提亮遮瑕",
+    "region": "complexion",
+    "effects": [
+      "提亮",
+      "自然"
+    ],
+    "suitable_for": [
+      "日常",
+      "清透"
+    ],
+    "avoid_when": [
+      "眼周明显不适"
+    ],
+    "tools": [
+      "干净指腹或海绵"
+    ],
+    "product_categories": [
+      "base"
+    ],
+    "required_product_kinds": [
+      "concealer"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "在确有暗沉的眼下少量点放适合肤色的遮瑕。",
+        "success_signal": "产品局限在眼下，不铺满整个面中。"
+      },
+      {
+        "order": 2,
+        "instruction": "用干净指腹或海绵轻拍开边缘。",
+        "success_signal": "眼下颜色衔接，表面没有厚重积线。"
+      }
+    ],
+    "beginner_shortcut": "眼下只点少量，用指腹轻拍边缘；够用就停。",
+    "adaptation_rules": [
+      "眼下干燥或易积线时进一步减量；不依据照片判断黑眼圈成因。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Where to Put Concealer to Brighten, Lift, and Perfect Your Look",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/where-to-apply-concealer-on-your-face",
+    "source_section": "Where Do You Put Concealer for a Natural Makeup Look?",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "complexion-tzone-setting",
+    "title": "T 区轻量定妆",
+    "region": "complexion",
+    "effects": [
+      "定妆",
+      "哑光",
+      "控油"
+    ],
+    "suitable_for": [
+      "日常",
+      "快速"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "蓬松散粉刷或粉扑"
+    ],
+    "product_categories": [
+      "base"
+    ],
+    "required_product_kinds": [
+      "setting_powder"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用蓬松刷或粉扑取少量散粉，先抖去明显余粉。",
+        "success_signal": "刷具上不见厚粉团。"
+      },
+      {
+        "order": 2,
+        "instruction": "轻扫容易出油的额头、鼻部与下巴，再用干净刷带走多余粉末。",
+        "success_signal": "T 区光泽变柔和，脸颊仍保留原有质感。"
+      }
+    ],
+    "beginner_shortcut": "只在会出油的 T 区扫薄薄一层，干燥处可跳过。",
+    "adaptation_rules": [
+      "干燥肤感时只处理需要定妆的位置，不全脸加粉。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How To Use Setting Powder for a Long-Lasting Makeup Look",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-use-setting-powder",
+    "source_section": "How To Apply Setting Powder / Apply your setting powder; Remove excess product",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eyebrow-fill-gaps",
+    "title": "沿毛流补眉毛空隙",
+    "region": "eyebrow",
+    "effects": [
+      "自然",
+      "柔和",
+      "清晰"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "细头眉笔",
+      "螺旋眉刷"
+    ],
+    "product_categories": [
+      "brow"
+    ],
+    "required_product_kinds": [
+      "brow_filler"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "先用眉刷梳理，再选接近原眉毛的颜色，在空隙处用短笔触补线。",
+        "success_signal": "空隙变淡，仍看得到毛流。"
+      },
+      {
+        "order": 2,
+        "instruction": "再次用螺旋眉刷梳过，使新画线条与眉毛交织。",
+        "success_signal": "眉头没有一整块深色。"
+      }
+    ],
+    "beginner_shortcut": "只补空隙，画几根短线后梳开。",
+    "adaptation_rules": [
+      "眉毛本身浓密时只整理不补色。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Try This Eyebrow Tutorial for Your Best Arches Yet",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/makeup-looks/eyebrow-tutorial-for-beginners",
+    "source_section": "Step 3. Outline and fill",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eyebrow-set-shape",
+    "title": "用眉胶固定眉形",
+    "region": "eyebrow",
+    "effects": [
+      "毛流",
+      "持久"
+    ],
+    "suitable_for": [
+      "日常",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "眉胶刷头"
+    ],
+    "product_categories": [
+      "brow"
+    ],
+    "required_product_kinds": [
+      "brow_gel"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "擦去眉胶刷头多余产品。",
+        "success_signal": "刷头没有可见胶团。"
+      },
+      {
+        "order": 2,
+        "instruction": "沿已整理好的毛流轻刷一遍，让眉毛停在想要的位置。",
+        "success_signal": "眉毛定向，眉间没有白色残留。"
+      }
+    ],
+    "beginner_shortcut": "刷头先刮掉余量，再顺毛流轻刷一遍。",
+    "adaptation_rules": [
+      "没有眉胶时跳过，不把其他部位的定型产品用在眉毛上。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Try This Eyebrow Tutorial for Your Best Arches Yet",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/makeup-looks/eyebrow-tutorial-for-beginners",
+    "source_section": "Step 4. Set them in place",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eyebrow-soft-front",
+    "title": "把眉头颜色梳柔",
+    "region": "eyebrow",
+    "effects": [
+      "柔和",
+      "自然",
+      "毛流"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "眉粉刷",
+      "干净螺旋眉刷"
+    ],
+    "product_categories": [
+      "brow",
+      "none"
+    ],
+    "required_product_kinds": [
+      "brow_filler"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用眉粉少量填补需要补色的部分，再用干净刷头从眉头向眉中轻扫。",
+        "success_signal": "眉头不再是实心色块。"
+      },
+      {
+        "order": 2,
+        "instruction": "再按原毛流方向梳一遍，让眉中与眉尾颜色自然过渡。",
+        "success_signal": "眉头轻、眉尾清晰。"
+      }
+    ],
+    "beginner_shortcut": "眉头太重时不加色，用干净刷往眉中带开。",
+    "adaptation_rules": [
+      "只处理眉色，不按统一眉形改造用户的眉毛。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "毛戈平形象设计艺术学校「彩妆资讯」",
+    "source_title": "别小看了眉妆的重要性，这样画眉毛颜值翻倍",
+    "source_url": "https://www.maogp.com/news_nr/index/730/39300.html",
+    "source_section": "步骤三、步骤五",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 1,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-neutral-shadow",
+    "title": "浅色眼影铺上眼皮",
+    "region": "eye",
+    "effects": [
+      "浅色",
+      "自然",
+      "暖棕",
+      "日常"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "铺色刷",
+      "晕染刷"
+    ],
+    "product_categories": [
+      "eyeshadow"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用干净铺色刷少量取浅色眼影，先铺在可见上眼皮。",
+        "success_signal": "睁眼能看到均匀浅色，不是一块厚粉。"
+      },
+      {
+        "order": 2,
+        "instruction": "用晕染刷轻扫边缘，向眉骨方向逐渐变淡。",
+        "success_signal": "眼影与裸皮之间没有硬边。"
+      }
+    ],
+    "beginner_shortcut": "浅色只铺一层，边缘用干净刷扫软。",
+    "adaptation_rules": [
+      "单眼皮或内双以睁眼可见范围决定铺色高度，不套用固定眼褶位置。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Shadow: Avoid These Common Mistakes",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/beginners-eye-shadow-tutorial",
+    "source_section": "How To Apply Eye Shadow / Step #1–3",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 3,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-primer",
+    "title": "眼皮薄涂妆前打底",
+    "region": "eye",
+    "effects": [
+      "打底",
+      "持久"
+    ],
+    "suitable_for": [
+      "日常",
+      "intermediate"
+    ],
+    "avoid_when": [
+      "眼周明显刺激"
+    ],
+    "tools": [
+      "干净指腹"
+    ],
+    "product_categories": [
+      "eyeshadow"
+    ],
+    "required_product_kinds": [
+      "eye_primer"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "取少量眼部打底产品，在上眼皮薄薄推匀。",
+        "success_signal": "表面均匀，不见白色堆积。"
+      },
+      {
+        "order": 2,
+        "instruction": "等表面稳定后再叠眼影。",
+        "success_signal": "后续眼影能平滑附着。"
+      }
+    ],
+    "beginner_shortcut": "有眼部打底产品时薄涂一层，等稳定再上眼影。",
+    "adaptation_rules": [
+      "没有眼部专用产品时可以跳过；眼周不适时停止使用。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Makeup: Foolproof Tips and Tutorials",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/how-to-apply-eye-makeup",
+    "source_section": "HOW TO APPLY EYE MAKEUP / STEP #1: EYE MAKEUP PRIMER",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 1,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-crease-definition",
+    "title": "用中间色加深眼窝",
+    "region": "eye",
+    "effects": [
+      "层次",
+      "暖棕",
+      "柔和"
+    ],
+    "suitable_for": [
+      "渐层",
+      "日常"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "小号晕染刷"
+    ],
+    "product_categories": [
+      "eyeshadow"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "中间色只取少量，从眼窝外侧向内扫。",
+        "success_signal": "外侧比眼头略深。"
+      },
+      {
+        "order": 2,
+        "instruction": "在颜色交界处来回轻扫，而不是把整片深色拖到眉骨。",
+        "success_signal": "睁眼有层次，边界柔和。"
+      }
+    ],
+    "beginner_shortcut": "中间色先放外侧，再用刷子余量往内晕。",
+    "adaptation_rules": [
+      "内双或单眼皮让深色停在睁眼仍可见的位置，避免全眼堆深。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Shadow: Avoid These Common Mistakes",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/beginners-eye-shadow-tutorial",
+    "source_section": "How To Apply Eye Shadow / Step #4: Define your crease",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 3,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-blend-edges",
+    "title": "用干净刷晕开眼影边缘",
+    "region": "eye",
+    "effects": [
+      "柔和",
+      "渐层"
+    ],
+    "suitable_for": [
+      "日常",
+      "渐层"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "干净晕染刷"
+    ],
+    "product_categories": [
+      "eyeshadow"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "换干净的蓬松刷，只接触深浅两色交界。",
+        "success_signal": "刷头没有额外深色。"
+      },
+      {
+        "order": 2,
+        "instruction": "轻压并小幅来回扫，直到色块边界软化。",
+        "success_signal": "颜色还保留明暗差，边缘没有硬线。"
+      }
+    ],
+    "beginner_shortcut": "只晕边缘，不把整片眼影刷成同一个颜色。",
+    "adaptation_rules": [
+      "颜色被晕没时停止刷动，局部少量补色。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Shadow: Avoid These Common Mistakes",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/beginners-eye-shadow-tutorial",
+    "source_section": "How To Blend Eyeshadow Like a Pro",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-center-highlight",
+    "title": "眼皮中央小范围提亮",
+    "region": "eye",
+    "effects": [
+      "提亮",
+      "香槟",
+      "shimmer"
+    ],
+    "suitable_for": [
+      "局部光泽",
+      "渐层"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "小号铺色刷"
+    ],
+    "product_categories": [
+      "eyeshadow"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用干净小刷取少量最浅色。",
+        "success_signal": "刷毛上没有大块粉。"
+      },
+      {
+        "order": 2,
+        "instruction": "只轻按在上眼皮中央，边缘与周围眼影接上。",
+        "success_signal": "转动视线时中央有局部亮度，范围未铺满。"
+      }
+    ],
+    "beginner_shortcut": "最浅色在眼皮中央点一次，再轻拍边缘。",
+    "adaptation_rules": [
+      "不喜欢闪片时选哑光浅色或跳过。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Shadow: Avoid These Common Mistakes",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/beginners-eye-shadow-tutorial",
+    "source_section": "How To Apply Eye Shadow / Step #6: Highlight the center",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 1,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-lashline",
+    "title": "上睫毛根部细眼线",
+    "region": "eye",
+    "effects": [
+      "清晰",
+      "自然",
+      "拉长"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [
+      "眼周明显刺激"
+    ],
+    "tools": [
+      "眼线笔"
+    ],
+    "product_categories": [
+      "eyeliner"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "从上睫毛根部画细线，先填靠近睫毛的空隙。",
+        "success_signal": "睫毛根部更清晰，线条未明显变粗。"
+      },
+      {
+        "order": 2,
+        "instruction": "眼尾与原睫毛线自然接住。",
+        "success_signal": "正面看没有突兀的断点。"
+      }
+    ],
+    "beginner_shortcut": "只画上睫毛根部外半段，逐段接起来。",
+    "adaptation_rules": [
+      "手不稳时画短段再连接；不画入眼内黏膜。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Makeup: Foolproof Tips and Tutorials",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/how-to-apply-eye-makeup",
+    "source_section": "HOW TO APPLY EYE MAKEUP / STEP #4: EYELINER",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-short-wing",
+    "title": "沿眼尾带出短眼线",
+    "region": "eye",
+    "effects": [
+      "拉长",
+      "眼尾",
+      "清晰"
+    ],
+    "suitable_for": [
+      "猫眼",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "细头眼线笔"
+    ],
+    "product_categories": [
+      "eyeliner"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "先完成上睫毛根部外段，再从眼尾沿预期方向画一小段。",
+        "success_signal": "眼尾有短延伸但不下垂成厚块。"
+      },
+      {
+        "order": 2,
+        "instruction": "把延伸末端接回上眼线，留出细尖尾。",
+        "success_signal": "左右眼尾方向接近。"
+      }
+    ],
+    "beginner_shortcut": "先只加很短的尾巴，照镜子确认方向后再延长。",
+    "adaptation_rules": [
+      "下垂眼或眼褶遮住眼尾时先睁眼标出可见终点。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Eye Makeup: Foolproof Tips and Tutorials",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/how-to-apply-eye-makeup",
+    "source_section": "10. ACCENT LINER / winged liner",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 3,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "eye-mascara-separate",
+    "title": "从根部向上刷开睫毛",
+    "region": "eye",
+    "effects": [
+      "纤长",
+      "清晰",
+      "自然"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [
+      "眼部感染或明显不适"
+    ],
+    "tools": [
+      "睫毛膏刷头"
+    ],
+    "product_categories": [
+      "mascara"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "把睫毛膏刷头多余膏体刮去。",
+        "success_signal": "刷头没有明显膏团。"
+      },
+      {
+        "order": 2,
+        "instruction": "从上睫毛根部轻微左右移动，向尖端带出一层。",
+        "success_signal": "睫毛分开、根部有存在感且少结块。"
+      }
+    ],
+    "beginner_shortcut": "刮掉余膏，从根部到尖端只刷一遍。",
+    "adaptation_rules": [
+      "刷到眼皮时等膏体干后再轻轻清理；不与他人共用眼部刷头。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Mascara Cocktailing: How to Layer Your Mascara",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/eye-makeup/how-to-layer-mascara",
+    "source_section": "How To Layer Mascara / 3. Apply your first coat of mascara",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "eye-mgp-soft-gradient",
+    "title": "同色系浅深渐层眼影",
+    "region": "eye",
+    "effects": [
+      "渐层",
+      "柔和",
+      "同色系"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "晕染刷"
+    ],
+    "product_categories": [
+      "eyeshadow"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "浅色眼影在眼窝薄铺，分次晕染。",
+        "success_signal": "上眼皮颜色均匀且轻。"
+      },
+      {
+        "order": 2,
+        "instruction": "用同色系较深颜色在眼睑局部少量叠加，再扫软交界。",
+        "success_signal": "局部较深，深浅自然过渡。"
+      }
+    ],
+    "beginner_shortcut": "先浅色薄铺眼窝，再用同色系深色加在局部并扫软交界。",
+    "adaptation_rules": [
+      "不套用文章的双眼皮褶皱位置；单眼皮和内双以睁眼可见范围确定深色区域。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "毛戈平形象设计艺术学校「彩妆资讯」",
+    "source_title": "初学者基础眼妆教程，每一步都很简单好学",
+    "source_url": "https://www.maogp.com/news_nr/index/547/41283.html",
+    "source_section": "Step1–Step3",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 4,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cheek-soft-blush",
+    "title": "苹果肌柔和腮红",
+    "region": "cheek",
+    "effects": [
+      "柔和",
+      "提气色",
+      "蜜桃",
+      "裸粉"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "蓬松腮红刷"
+    ],
+    "product_categories": [
+      "blush"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "左右脸确认想要的腮红中心点，刷子取少量腮红。",
+        "success_signal": "落点接近对称。"
+      },
+      {
+        "order": 2,
+        "instruction": "从两侧中心轻扫向外晕开，逐层增加颜色。",
+        "success_signal": "两侧有气色但无明显圆形边界。"
+      }
+    ],
+    "beginner_shortcut": "两侧先各上一薄层，照镜子比较后再补。",
+    "adaptation_rules": [
+      "脸颊泛红已明显时降低上色量；不强制任何脸型定位。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Where to Apply Blush So It Looks Symmetrical Every Time",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-apply-blush-symmetrically",
+    "source_section": "How to Apply Blush Symmetrically / Personalize Your Placement; Apply Your Blush",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cheek-lifted-blush",
+    "title": "颧骨外侧向上腮红",
+    "region": "cheek",
+    "effects": [
+      "向上",
+      "提气色",
+      "斜向"
+    ],
+    "suitable_for": [
+      "提拉",
+      "日常"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "腮红刷"
+    ],
+    "product_categories": [
+      "blush"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "把腮红放在颧骨外侧较高位置，先轻扫薄层。",
+        "success_signal": "腮红不集中在面中。"
+      },
+      {
+        "order": 2,
+        "instruction": "向发际方向把外缘晕开，左右对照高度。",
+        "success_signal": "腮红外缘渐淡，方向向上。"
+      }
+    ],
+    "beginner_shortcut": "腮红先放高一点，再向太阳穴方向扫软。",
+    "adaptation_rules": [
+      "参考图腮红集中面中时不用此位置。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Where to Apply Blush So It Looks Symmetrical Every Time",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-apply-blush-symmetrically",
+    "source_section": "How to Apply Blush Symmetrically / Personalize Your Placement",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cheek-cream-blush",
+    "title": "膏状腮红双侧点拍",
+    "region": "cheek",
+    "effects": [
+      "自然",
+      "清透",
+      "satin"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "干净指腹或海绵"
+    ],
+    "product_categories": [
+      "blush"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "两侧面颊相应位置各点少量膏状腮红。",
+        "success_signal": "两侧起始用量接近。"
+      },
+      {
+        "order": 2,
+        "instruction": "用干净指腹或海绵由中心向外轻拍，再观察是否需要增加。",
+        "success_signal": "边缘融入底妆，没有膏体结块。"
+      }
+    ],
+    "beginner_shortcut": "左右各点少量，再分别轻拍开。",
+    "adaptation_rules": [
+      "粉状定妆后若膏体拖动底妆，停止叠加并改用适合当前底妆的质地。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Where to Apply Blush So It Looks Symmetrical Every Time",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-apply-blush-symmetrically",
+    "source_section": "How to Apply Blush Symmetrically / Pick Your Blush Formula and Shade; Apply Your Blush",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "nose-soft-contour",
+    "title": "鼻梁两侧轻量修容",
+    "region": "complexion",
+    "effects": [
+      "鼻部修容",
+      "自然",
+      "轮廓"
+    ],
+    "suitable_for": [
+      "局部调整",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "细头修容刷"
+    ],
+    "product_categories": [
+      "contour"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用细刷在鼻梁两侧自然阴影处各放极少量修容色，不扩大到鼻翼中央。",
+        "success_signal": "两侧范围相近，没有粗重的暗线。"
+      },
+      {
+        "order": 2,
+        "instruction": "用干净刷具轻轻晕开边缘，让颜色融入周围底妆。",
+        "success_signal": "正面看不到硬边，鼻部保留原有轮廓。"
+      }
+    ],
+    "beginner_shortcut": "两侧各放极少量，先晕开再判断是否需要补色。",
+    "adaptation_rules": [
+      "仅在参考图和用户资料支持时使用；不照搬统一鼻形，鼻翼外侧少量处理并保留原有比例。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Contour Your Nose Like a Pro",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/nose-contour",
+    "source_section": "2. Pick Your Contour",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cheek-outer-contour",
+    "title": "颧骨下方轻量修容",
+    "region": "cheek",
+    "effects": [
+      "修容",
+      "轮廓",
+      "自然",
+      "matte"
+    ],
+    "suitable_for": [
+      "日常",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "小号修容刷或海绵"
+    ],
+    "product_categories": [
+      "contour"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "先确认想加深的轮廓位置，从颧骨下方外侧少量落色。",
+        "success_signal": "阴影没有延伸到嘴角。"
+      },
+      {
+        "order": 2,
+        "instruction": "用刷或海绵把边界晕进底妆。",
+        "success_signal": "正面没有硬边，侧面轮廓有轻微层次。"
+      }
+    ],
+    "beginner_shortcut": "先从靠耳一侧放少量颜色，向面中渐淡。",
+    "adaptation_rules": [
+      "不依据照片自动判定脸型；用户确认想加强的区域后再扩大范围。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Contour Your Face Like a Pro",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/how-to-contour-like-a-pro-makeup-artist",
+    "source_section": "How to Contour Your Face / Step 4. Contour your face",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 3,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cheek-cheekbone-highlight",
+    "title": "颧骨高点少量高光",
+    "region": "cheek",
+    "effects": [
+      "高光",
+      "提亮",
+      "光泽",
+      "shimmer"
+    ],
+    "suitable_for": [
+      "日常",
+      "局部光泽"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "小号高光刷或干净指腹"
+    ],
+    "product_categories": [
+      "highlighter"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "取少量高光，定位颧骨上方受光处。",
+        "success_signal": "高光不落在整片脸颊。"
+      },
+      {
+        "order": 2,
+        "instruction": "轻扫或轻拍成薄层，再转头检查反光边界。",
+        "success_signal": "转头时出现局部光泽，正面没有明显粉线。"
+      }
+    ],
+    "beginner_shortcut": "两侧颧骨高点各点少量，先看自然光效果。",
+    "adaptation_rules": [
+      "全哑光参考妆可跳过；不喜欢闪片时选更细腻的质地。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "Where to Apply Highlighter for a Glowy, Lit-From-Within Look",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/face-makeup/where-to-apply-highlighter-how-to",
+    "source_section": "Where to Apply Highlighter to Your Face / 1. Cheekbones; Step 4: Apply your highlighter",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cheek-mgp-diffused-blush",
+    "title": "外侧至面中渐淡腮红",
+    "region": "cheek",
+    "effects": [
+      "渐淡",
+      "修饰",
+      "斜向"
+    ],
+    "suitable_for": [
+      "柔和轮廓",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "腮红刷"
+    ],
+    "product_categories": [
+      "blush"
+    ],
+    "required_product_kinds": [],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "在面颊外侧少量上腮红，确定斜向面中的路径。",
+        "success_signal": "外侧是最清楚的颜色落点。"
+      },
+      {
+        "order": 2,
+        "instruction": "用刷具余粉向面中轻扫，让颜色逐渐减淡。",
+        "success_signal": "外深内浅，没有两端一样重的色带。"
+      }
+    ],
+    "beginner_shortcut": "从外侧开始，越向面中越轻，不在面中重新取粉。",
+    "adaptation_rules": [
+      "文章按脸型举例；本卡只提供可选画法，不将用户归类为某种脸型。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "毛戈平形象设计艺术学校「彩妆资讯」",
+    "source_title": "新手化妆万用公式，快进来抄作业（下）",
+    "source_url": "https://www.maogp.com/news_nr/index/730/41888.html",
+    "source_section": "万能通勤腮红",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 3,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "lip-balm-prep",
+    "title": "润唇后再上色",
+    "region": "lip",
+    "effects": [
+      "滋润",
+      "平滑"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [
+      "唇部破损或明显不适"
+    ],
+    "tools": [
+      "润唇产品"
+    ],
+    "product_categories": [
+      "lip"
+    ],
+    "required_product_kinds": [
+      "lip_balm"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "先确认唇部无明显破损，再薄涂适合自己的润唇产品。",
+        "success_signal": "唇面不紧绷，也不留下厚油层。"
+      },
+      {
+        "order": 2,
+        "instruction": "待表面适合上色后再用口红。",
+        "success_signal": "口红能平滑接触唇面。"
+      }
+    ],
+    "beginner_shortcut": "先薄涂润唇，再上口红；油层过厚时轻按掉余量。",
+    "adaptation_rules": [
+      "唇部明显破损或刺激时暂停唇妆；不做医疗判断。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Lipstick: Tips, Tricks, and Techniques to Try",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/lip-makeup/how-to-apply-lipstick",
+    "source_section": "How To Prep Your Lips for Lipstick",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 1,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "lip-natural-line",
+    "title": "沿原唇缘描出轮廓",
+    "region": "lip",
+    "effects": [
+      "清晰",
+      "唇形"
+    ],
+    "suitable_for": [
+      "精致",
+      "intermediate"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "唇线笔"
+    ],
+    "product_categories": [
+      "lip"
+    ],
+    "required_product_kinds": [
+      "lip_liner"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "先观察唇峰和唇角，选与计划唇色相近的唇线笔。",
+        "success_signal": "能沿原唇缘找到起点。"
+      },
+      {
+        "order": 2,
+        "instruction": "从唇峰向两侧画短线，再连接下唇自然边界。",
+        "success_signal": "唇缘连续但不过分外扩。"
+      }
+    ],
+    "beginner_shortcut": "从唇峰开始沿原唇缘画短线，画错时用棉签修正。",
+    "adaptation_rules": [
+      "不想强调唇缘时跳过唇线；不能从参考图推断真实唇形调整。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Use Lip Liner: A Beginner’s Guide",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/lip-makeup/how-to-use-lip-liner",
+    "source_section": "How to Apply Lip Liner / 1. Determine your lip shape; 4. Line your lips",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "lip-even-lipstick",
+    "title": "均匀填满唇色",
+    "region": "lip",
+    "effects": [
+      "均匀",
+      "柔雾",
+      "豆沙"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "口红或唇刷",
+      "棉签"
+    ],
+    "product_categories": [
+      "lip"
+    ],
+    "required_product_kinds": [
+      "lip_color"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "沿上唇与下唇的轮廓轻涂第一层。",
+        "success_signal": "唇角和唇中都覆盖到。"
+      },
+      {
+        "order": 2,
+        "instruction": "用唇刷或口红补齐未上色处，棉签清理越界。",
+        "success_signal": "唇色均匀，唇缘干净。"
+      }
+    ],
+    "beginner_shortcut": "先上一薄层，照镜子找空缺后再补，不一次厚涂。",
+    "adaptation_rules": [
+      "想要清透效果时只保留第一层；颜色由用户现有产品和参考图决定。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "How to Apply Lipstick: Tips, Tricks, and Techniques to Try",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/lip-makeup/how-to-apply-lipstick",
+    "source_section": "How To Put On Lipstick",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "lip-center-gloss",
+    "title": "唇中央叠少量唇蜜",
+    "region": "lip",
+    "effects": [
+      "光泽",
+      "水光",
+      "glossy"
+    ],
+    "suitable_for": [
+      "清透",
+      "局部光泽"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "唇蜜刷头"
+    ],
+    "product_categories": [
+      "lip"
+    ],
+    "required_product_kinds": [
+      "lip_gloss"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "在已有唇色上从唇中央点少量唇蜜。",
+        "success_signal": "中央能看到一小块光泽。"
+      },
+      {
+        "order": 2,
+        "instruction": "用刷头余量向外轻带，不把唇缘涂得过厚。",
+        "success_signal": "中央亮、边缘整洁。"
+      }
+    ],
+    "beginner_shortcut": "只在上下唇中央各点一次，不需要涂满。",
+    "adaptation_rules": [
+      "参考妆为全哑光或用户不喜欢黏腻质地时跳过。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "欧莱雅巴黎官网 Beauty Magazine",
+    "source_title": "The Ultimate Guide to Lip Gloss",
+    "source_url": "https://www.lorealparisusa.com/beauty-magazine/makeup/lip-makeup/lip-gloss-ultimate-guide",
+    "source_section": "HOW TO APPLY LIP GLOSS; 3 LIP GLOSS HACKS / 1. Temporarily “plump” your lips",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 1,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "lip-mgp-inner-gradient",
+    "title": "唇内侧渐变色",
+    "region": "lip",
+    "effects": [
+      "渐变",
+      "柔和",
+      "提气色"
+    ],
+    "suitable_for": [
+      "日常",
+      "beginner"
+    ],
+    "avoid_when": [],
+    "tools": [
+      "口红或唇刷"
+    ],
+    "product_categories": [
+      "lip"
+    ],
+    "required_product_kinds": [
+      "lip_color"
+    ],
+    "actions": [
+      {
+        "order": 1,
+        "instruction": "用少量唇色薄涂完整上下唇，先建立均匀底色。",
+        "success_signal": "整个唇面有淡淡颜色。"
+      },
+      {
+        "order": 2,
+        "instruction": "只在上下唇内侧加一层颜色，再轻拍深浅交界。",
+        "success_signal": "内侧较深，向唇缘自然变浅。"
+      }
+    ],
+    "beginner_shortcut": "先薄涂全唇，再只加深内侧，最后拍柔交界。",
+    "adaptation_rules": [
+      "色号按用户已有唇部产品选择；参考图是均匀饱满唇时不用渐变。"
+    ],
+    "source_type": "public_reference",
+    "source_note": "依据所列官网公开文章的指定章节重新编写；位置与用量为操作性归纳，未经专业化妆师复核或用户跟练验证。",
+    "source_publisher": "毛戈平形象设计艺术学校「彩妆资讯」",
+    "source_title": "新手化妆万用公式，快进来抄作业（下）",
+    "source_url": "https://www.maogp.com/news_nr/index/730/41888.html",
+    "source_section": "日常又减龄的渐变唇",
+    "source_checked_at": "2026-10-08",
+    "review_status": "draft",
+    "duration_minutes": 2,
+    "difficulty": "beginner"
+  }
+]
